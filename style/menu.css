@@ -1,3 +1,7 @@
+.menu{
+  display: none;
+}
+
 .menu .container{
   display: flex;
   justify-content: space-between;

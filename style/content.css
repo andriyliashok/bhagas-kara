@@ -238,3 +238,43 @@
   display: flex;
   justify-content: center;
 }
+
+.skills{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 200px;
+}
+
+.skill{
+  flex-basis: 40%;
+}
+
+.skill .skill-text{
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill .skill-line{
+  background: #f0f0f0;
+}
+
+.skill .skill-line-color{
+  background: #9f449b;
+  padding: 10px 0;
+}
+
+.skill .skill-web{
+  width: 90%;
+}
+
+.skill .skill-html{
+  width: 75%;
+}
+
+.skill .skill-graphic{
+  width: 70%;
+}
+
+.skill .skill-ui{
+  width: 85%;
+}
