@@ -5,4 +5,9 @@ $(function () {
     e.preventDefault();
      $('.menu').stop().slideToggle();
   })
+
+  $('.slider').slick({
+     arrows: false,
+      dots: true
+  });
 });

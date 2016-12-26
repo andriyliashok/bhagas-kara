@@ -278,3 +278,101 @@
 .skill .skill-ui{
   width: 85%;
 }
+
+.slider-bottom{
+  background: #eeeeee;
+  padding-top: 100px;
+}
+
+.slider-bottom .slider-numbers{
+  display: flex;
+  justify-content: space-around;
+}
+
+.slider-numbers .numbs {
+  text-align: center;
+}
+
+.slider-numbers .numbs span{
+  font-size: 3em;
+}
+
+.slider-numbers .numbs p{
+  margin: 0;
+  color: #777777;
+}
+
+.slider-bottom .slider{
+  text-align: center;
+  margin: 100px auto;
+}
+
+.slider-bottom .slider blockquote{
+  font-size: 1.5em;
+  color: #4b4b4b ;
+}
+
+.slider-bottom .slider cite{
+  font-size: 1.1em;
+  color: #777777 ;
+}
+
+.slider-bottom .slider img{
+  margin: 0 auto;
+}
+
+.slider-bottom .slide-line{
+  height: 50px;
+  background: #ffffff;
+}
+
+.slick-dots {
+ position: relative;
+  top: 0;
+}
+
+.slick-dots li button:before {
+  font-size: 17px;
+  top: -1px;
+  left: -2px;
+  color: transparent;
+}
+
+.slick-dots li button {
+  border:  1px solid #777777;
+  border-radius: 10px;
+  width: 15px;
+  height: 15px;
+}
+.slick-dots li.slick-active button:before{
+  color: #777777;
+}
+
+.portfolio nav ul{
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.portfolio nav ul a{
+  text-decoration: none;
+  color: #222222;
+  display: block;
+  padding: 5px 20px;
+  margin-right: 20px;
+  border: 1px solid #222222;
+  border-radius: 5px;
+  font-size: 1.2em;
+  transition: all 0.3s;
+}
+
+
+.portfolio nav ul a:hover{
+  background: #9f449b;
+  color: #ffffff;
+  border: 1px solid #9f449b;
+
+
+}
